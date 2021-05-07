@@ -14,4 +14,4 @@ function teste(){
 }
 
 teste();
-console.log(local);
+// console.log(local); a variavel local dentro da funcao teste, o js nao consegue localizar pois nao esta no escopo global
