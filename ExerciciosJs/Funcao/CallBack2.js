@@ -12,11 +12,11 @@ console.log(notasBaixas);
 // com callback
 
 notasBaixas = notas.filter(function (nota) {
-    return nota <7
+    return nota < 7
 })
 console.log(notasBaixas);
 
 //com callback e arrow
 
-notasBaixas = notas.filter(nota => nota <7)
+notasBaixas = notas.filter(nota => nota < 7)
 console.log(notasBaixas);

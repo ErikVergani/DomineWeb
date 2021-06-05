@@ -13,3 +13,6 @@ comparaComThis(global)
 let comparaComThisArrow = param => console.log(this === param);
 comparaComThisArrow(global)
 // aqui por conta da função arrow, o this deixa de ser igual a param se eu passo global.
+
+const num1 = '1'
+const num2 = 1
